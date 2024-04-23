@@ -57,7 +57,6 @@ Github Actions:
     plugin: moon
     args: |
       setup
-    working-directory: example
 - name: Show Moon version
   run: |
     export PATH=${HOME}/.moon/bin:${PATH}
