@@ -59,7 +59,6 @@ Github Actions:
       setup
 - name: Show Moon version
   run: |
-    export PATH=${HOME}/.moon/bin:${PATH}
     type moon
     moon --version
 ```
